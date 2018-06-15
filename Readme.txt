@@ -32,4 +32,4 @@ Getting started with the project:
 Once this is in place you can easily creat an account
 and leverage of a very huge network.
 
-This Project is currently maintained by Ali mulondo(myalimul@gmail.com)  
+This Project is currently maintained by Ali mulondo(myalimul@gmail.com)
