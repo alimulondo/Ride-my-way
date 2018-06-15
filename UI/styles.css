@@ -1,0 +1,1177 @@
+
+html body{
+	background-image: url(images/header-3.jpg);
+	background-size: cover;
+	font-family: Arial, sans-serif;
+	box-sizing: border-box;
+	/*background-position:center;*/
+	background-repeat: no-repeat;
+}
+
+header{
+    width: 100%;
+	padding: 0px;
+	margin: 0px;
+	padding-top: 0px;
+}
+
+select{
+	padding: 4px;
+	border-radius: 5px;
+	font-size: 1.5rem;
+	height: 1rem;
+}
+
+#nav-styles{ 
+
+	/*height: 100%;*/
+	/*background-color: black;*/
+	color: white;
+	padding: 0px;
+	margin: 0px;
+	background: #241e49 url(images/header-2.jpg) bottom center no-repeat ;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	-webkit-perspective:500px;
+	        perspective: 500px;
+}
+
+ul{
+	display: inline;
+	list-style-type: none; 
+	padding: 0px;
+	margin: 0px;
+
+}
+
+ul  li {
+
+	list-style-type: none;
+	display: block;
+	padding: 0.5rem;
+	text-align: left !important;
+	text-decoration: none;
+
+
+	/*customizing the style further*/
+	border-top: 1px solid rgba(255,255,255,0.2);
+
+	/*margin-left: -30px;*/
+	/*width: 11em;*/
+}
+ul li:first-child{
+	/*border-top:1px solid rgba(255,255,255,0.2); */
+	/*list-style-type: initial;*/
+
+}
+ul li:last-child{
+	border-bottom: none;
+		/*background-color: orange;*/
+ 
+}
+
+ul a li{
+	text-decoration: none;
+	color: white;
+	font-size: 1rem;
+	font-weight: 50;
+	text-transform: capitalize;
+}
+
+  li:hover{
+	background-color: #4b9e9ef7;
+	cursor: pointer;
+	
+}
+
+#main-menu-div a{
+	 text-decoration: none;;
+
+}
+
+
+#main-menu-div{
+	display: inline;
+	position: relative;
+	float: right;
+
+	background-color: gray;
+	width:11em; 
+	height:calc(600px + 11rem);
+	border-radius: 3px;
+	text-align: right;
+}
+#big{
+	position: relative;
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 100%;
+}
+
+#main-heading{
+	position: relative;
+	float: center;
+	font-family: inherit;
+	/*font-weight: 100;*/
+	font-size: 5rem;
+	display: inline;
+	align-items: center;
+	padding-left: 20%;
+
+	/*testing*/
+}
+
+
+.lettee-style{
+	color: yellow;
+
+}
+#main-heading h1{
+	display: inline;
+	/*padding-top: 1rem;*/
+	letter-spacing: 2px;
+	font-weight: 100;
+	font-size: 0,5em;
+	
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.2), 0 0 10px rgba(0,0,0,0.1);
+	z-index: 1;
+  display: inline-block;
+  -webkit-animation-name: floating;
+          animation-name: floating;
+  -webkit-animation-duration: 40s;
+          animation-duration: 40s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  
+}
+@keyframes floating {
+  from {
+    -webkit-transform: translate(0, 0px) rotateY(-12deg);
+            transform: translate(0, 0px) rotateY(-12deg);
+    text-shadow: 10px 10px 3px rgba(0,0,0,0.15);
+  }
+  65% {
+    -webkit-transform: translate(0, 15px) rotateY(10deg) rotateX(10deg);
+            transform: translate(0, 15px) rotateY(10deg) rotateX(10deg);
+    text-shadow: -10px -10px 3px rgba(0,0,0,0.15);
+  }
+  to {
+    -webkit-transform: translate(0, 0px) rotateY(-12deg);
+            transform: translate(0, 0px) rotateY(-12deg);
+    text-shadow: 10px 10px 3px rgba(0,0,0,0.15);
+  }
+}
+
+/*tilliting a letter to my clints..*/
+
+#letter-to-clients{
+
+	position: absolute;
+    background-color: white;
+    color: black;
+  /*border: 8px  solid gray;*/
+    box-shadow: 5px 5px 5px 5px black;
+  /*border-radius: 5px;*/
+  /*this property is not working...*/
+    padding:10px;
+  /*margin: 10px;*/
+
+  background-image: linear-gradient(90deg, #b6d7e8 2px, 
+                                      transparent 2px, 
+                                      rgba(0, 0, 0, 0)),
+                   linear-gradient(0deg, #c1c1c1 1px,
+                                      transparent 2px, 
+                                      transparent);
+  background-position:4rem 0, 0 5px;
+  background-size: 100% 1.7rem;
+  padding-left: 2rem;
+  /*postioning the div and resizing the div*/
+   width: 600px;
+   height:auto;
+   position: relative;
+   margin-top: calc(-5rem + 15px);
+   /*margin-bottom:20%;*/
+   margin-left: 30%;
+   /*margin-right: 20%;*/
+
+   /*experieementing with the transform propperty*/
+   transform:rotateZ(-4deg);
+   /*transform:rotateX(-20deg);*/
+   /*transform: translateY(-10px);*/
+    /*transform: translate3d(0px, 0px, -100px);*/
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
+    /*the movement is done here...*/
+    /**/
+
+    /*give it the floating ability*/
+    /*animation: flaating 40s infinite ease-in-out;*/
+
+}
+#letter-to-clients h3 {
+	padding-left: 2rem;
+	padding-top: 2.5rem;
+	font-size: 2rem;
+}
+#letter-to-clients p{
+
+	padding-left: 2.0rem;
+	padding-top: 0.6rem;
+	padding-bottom: 0rem;
+	font-size: 1.5rem;
+
+}
+
+
+
+.snack{
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: line-through;
+
+	/*font-stretch: semi-condensed*/
+}
+
+#company-name{
+	font-weight: bold;
+	font-style: italic;
+
+}
+
+#Signup{
+
+	 position: absolute;
+	 width: auto;
+	 height: auto;
+	 border-radius: 20px;
+	 background-color: #72758C;
+	 /*margin-top: 10%;*/
+	 margin-left: 30%;
+
+	 /*fallback and real potion os this div*/
+        margin-top:15rem;
+		transform: rotateZ(-2deg);
+
+
+	 /*give the signup downward motion*/
+	 animation: _move-signup 40s 1 ease-in-out;
+}
+
+#login-div{
+
+
+	 position: absolute;
+	 width: auto;
+	 height: auto;
+	 border-radius: 20px;
+	 background-color: #72758C;
+	 /*margin-top: 10%;*/
+	 margin-left: 30%;
+
+	 /*fallback and real potion os this div*/
+        margin-top:20rem;
+		transform: rotateZ(-2deg);
+
+
+	 /*give the signup downward motion*/
+	 animation: _move-login 10s 1 ease-in-out;
+
+
+}
+
+#signup-pic{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-color: white;
+	position: relative;
+	margin-left: calc(50% - 75px);
+	margin-top: 3rem;
+}
+
+#signup-form-div{
+	font-family: inherit;
+	height: auto;
+	width: auto;
+	margin-left: 4rem;
+	margin-top: 2rem;
+	font-size: 1.5rem;
+	background-color: transparent;
+}
+
+.unique-form-style{
+    display: block;
+    padding: 10px;
+
+}
+
+._style-text-input{
+	padding: 4px;
+	border-radius: 5px;
+	font-size: 1.5rem;
+	height: 1rem;
+}
+
+._style-text-input:focus{
+	box-shadow: 0px 0px 2px 2px #7E668C;
+	border-color: #7E668C;
+}
+
+#signup-sub-btn{
+	width: 20rem;
+	height: 2rem;
+	margin-left: calc(50% - 10rem);
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+	font-size: 1.5rem;
+	font-weight: bold;
+ 
+}
+
+#signup-sub-btn:hover{
+	cursor: pointer;
+	background-color: #5760A2FF;
+	border-color: transparent;
+
+}
+
+
+@keyframes _move-signup{
+     from{
+        margin-top: calc(5% - 15rem);
+     }
+     30%{
+        margin-top: calc(15% - 15rem);
+            
+     }
+     30%{
+        margin-top: calc(20% - 15rem);
+            
+     }
+     30%{
+        margin-top: calc(25% - 15rem);
+            
+     }
+     to{
+        /*margin-top:calc(30%-50px);*/
+        margin-top:15rem;
+        transform: rotateZ(-2deg);
+
+     }
+}
+@keyframes _move-login{
+     from{
+        margin-top: calc(10% - 20rem);
+     }
+     30%{
+        margin-top: calc(17% - 20rem);
+            
+     }
+     30%{
+        margin-top: calc(20% - 20rem);
+            
+     }
+     30%{
+        margin-top: calc(25% - 20rem);
+            
+     }
+     to{
+        /*margin-top:calc(30%-50px);*/
+        margin-top:20rem;
+        transform: rotateZ(-2deg);
+
+     }
+}
+
+#rotating-chapati{
+	position: absolute;
+	margin-top:20rem; 
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	/*background-color: orange;*/
+	background-image: url('images/chapat.jpg');
+	background-position: center;
+	background-color: #FFFCBFFF;
+	/*transform: translateZ(500px);*/
+	/*margin-left: 50%;*/
+    animation:_give-chapti-rot 40s infinite ease-in-out;
+	/*transform: rotateZ(10deg);*/
+}
+
+#straight-word{
+	margin-left: calc(40% - 1rem);
+	font-size: 2rem;
+}
+
+
+#amaizing-word{
+	position: absolute;
+	margin-left: calc(-10% - 1rem) ;
+	margin-top: calc(100% - 9.5rem);
+	transform: rotateZ(-90deg);
+}
+
+#flipped-word{
+	font-size: 2rem;
+
+}
+
+@keyframes _give-chapti-rot{
+   from{
+       transform: rotateZ(10deg);
+       margin-left: -3%;
+   }
+   30%{
+   	
+       transform: rotateZ(10deg);
+       margin-left: 0%;
+   }
+   30%{
+       transform: rotateZ(20deg);
+       margin-left: 5%;
+   	
+   }
+   30%{
+   	
+       transform: rotateZ(30deg);
+       margin-left: 10%;
+   }
+   30%{
+   	
+       transform: rotateZ(40deg);
+       margin-left: 15%;
+   }
+   30%{
+   	
+       transform: rotateZ(50deg);
+       margin-left: 20%;
+   }
+   30%{
+   	
+       transform: rotateZ(60deg);
+       margin-left: 25%;
+   }
+   10%{
+       transform: rotateZ(70deg);
+       margin-left: 30%;
+
+   }
+
+}
+
+#login-to-signup{
+     text-decoration: none;;
+     color: blue;
+     font-size: 1rem;
+
+
+}
+
+#login-to-signup:hover{
+	color: red;
+	text-decoration: underline;
+}
+
+/*from here is css for the riders page*/
+#custom-body{
+	background-image: none;
+	box-sizing: border-box;
+	background-color: #EBFFD1FF;
+}
+
+
+#rider-menu{
+	position: absolute;
+	height: 4rem;
+	width: calc(100% - 1rem);
+	margin-left: 0%;
+	margin-top: 0%;
+	background-color: #E2DEA8FF;
+
+}
+
+#rider-welcom-msg{
+	position: absolute;
+	margin-left: calc(50% - 10rem);
+	margin-top: calc(1rem);
+	width: 20rem;
+	height: 2rem;
+	border-radius: 0.5rem;
+	background-color: #F3F3D9FF;
+
+}
+
+#rider-welcom-msg p{
+	position: absolute;
+	margin-left: calc(5rem - 20px);
+	margin-top: calc(-1rem + 20px);
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+#rider-status{
+	position: absolute;
+	margin-top: calc(1rem);
+	margin-left: 2rem;
+	width: 8rem;
+	height: 2rem;
+	border-radius: 0.5rem;
+	background-color: #238ACBFF;
+
+}
+#rider-status p{
+	margin-left: calc(4rem - 40px);
+	margin-top: calc(1rem - 10px);
+	font-size: 1.2rem;
+}
+
+#rider-submenu{
+	position: absolute;
+	margin-top: calc(1rem - 10px);
+	margin-left: calc(100% - 8rem);
+	width: 6rem;
+	height: 4rem;
+	background-color: transparent;
+	background-size: cover;
+	background-position: center;background-image: url(images/rider-menu.png);
+}
+
+#rider-submenu:hover{
+	cursor: pointer;
+}
+
+/*this style is to help popup the submenu when implemented*/
+#rider-submenu:active{
+	background-color: orange;
+}
+
+
+#rider-text-area{
+	position: absolute;
+	margin-top: calc(50% - 5.5rem);
+	margin-left: 0;
+	width: calc(100% - 1rem);
+	height: 10rem;
+	background-color: #C5B7A4C6;
+}
+
+#rider-message-view{
+	position: absolute;
+	/*widows: inherit;*/
+	margin-left: 20rem;
+	margin-top: 4rem;
+	width: calc(100% - 21rem);
+	height: 33rem;
+	background-color: #efffefdb;
+}
+
+/*working on the text-area div*/
+#rider-typing-place{
+	position: absolute;
+	margin-left: calc(26rem);
+	margin-top: 2rem;
+	width: 20rem;
+	height: 6rem;
+	border-radius: 10px;
+	background-color: white;
+	border-radius: 10px;
+
+}
+
+#rider-typing-place textarea{
+	width: 100%;
+	height: 100%;
+	font-size: 1rem;
+	border-radius: 10px;
+}
+
+#rider-typing-place textarea:active{
+	border: 5px solid #E0E9F3FF;
+	border-radius:10x; 
+
+}
+
+#rider-place-from{
+	position: absolute;
+	margin-top: 2rem;
+	margin-left: 3rem;
+	width: 20rem;
+	height: 6rem;
+	background-color: #FEFEA38C;
+	border-radius: 10px;
+
+
+}
+
+#rider-place-to{
+	position: absolute;
+	margin-top: 2rem;
+	margin-left: calc(49rem);
+	width: 20rem;
+	height: 6rem;
+	background-color: #FEFEA38C;
+	border-radius: 10px;
+
+
+}
+
+.organize-place{
+	position: absolute;
+	margin-top: calc(3rem - 14px);
+	margin-left: calc(2rem - 15px);
+
+}
+
+.organize-place label{
+	padding: 2px;
+	font-weight: bold;
+}
+
+.organize-place  input[type=text]{
+	  padding: 2px;
+	  height: 1.5rem;
+	  border: 8px solid transparent;
+	  border-radius: 8px;
+}
+
+#rider-content-sub{
+	position: relative;
+	margin-left: 72rem;
+	margin-top: 2rem;
+	width: 6rem;
+	height: 6rem;
+	border-radius: 50%;
+	background-color: #23FF3C91;
+	transform: rotateZ(30deg);
+}
+
+#center-submit{
+	position: absolute;
+	display: inline;
+	margin-top: calc(3rem - 20px);
+	margin-left: calc(3rem - 5px);
+}
+#flip-submit{
+	position: absolute;
+	display: inline;
+	margin-top: calc(4rem - 20px);
+	margin-left: calc(1rem - 25px);
+	transform: rotateZ(-90deg);
+}
+
+#rider-content-sub:hover{
+	background-color: #E2E969FF;
+	cursor: pointer;
+	animation: _rotate-rider-btn 40s infinite ease-in-out; 
+}
+
+@keyframes _rotate-rider-btn{
+ from{ 	transform: rotateZ(50deg);
+ }
+ 25%{	
+ 	transform: rotateZ(90deg);
+   }
+ 25%{
+ 	  	transform: rotateZ(180deg);
+
+ }
+ 25%{
+ 	  	transform: rotateZ(230deg);
+
+ }
+ 25%{
+ 	  	transform: rotateZ(280deg);
+
+ }
+ 25%{
+ 	  	transform: rotateZ(320deg);
+
+ }
+ to{
+ 	  	transform: rotateZ(30deg);
+
+ }
+
+}
+
+/*code for offer styling starts here..*/
+#offer-container{
+	position: absolute;
+	width: 20rem;
+	height: 8rem;
+	border-radius: 1rem;
+	background-color: #CDD766FF;
+}
+
+#offer-pointer{
+	position: absolute;
+	margin-left: 14rem;
+	margin-top: calc(3rem - 30px);
+	width: 0;
+	height: 0;
+	border-left: 10rem solid #CDD766FF;
+	border-bottom: 3rem solid transparent;
+}
+#position-offer-msg{
+      position: absolute;
+      margin-top: 3rem;
+      margin-left: calc(100%  - 25rem);
+}
+
+#offer-date{
+	position: absolute;
+	display: inline;
+	margin-top: -0.5rem;
+	margin-left: calc(15rem - 8px);
+	font-weight: bold;
+}
+
+#offer-depature{
+	position: absolute;
+	margin-top: 3px;
+	margin-left: 4px;
+	font-weight: bold;
+}
+
+#offer-depature  label{
+	position: absolute;
+	display: inline;
+
+}
+#offer-depature  p{
+	/*position: absolute;*/
+	display: inline;
+	margin-left: 3rem;
+}
+
+#offer-arrival{
+	position: absolute;
+	margin-top: 1.5rem;
+	margin-left: 4px;
+	font-weight: bold;
+}
+#offer-arrival  label{
+	position: absolute;
+	display: inline;
+
+}
+#offer-arrival  p{
+	/*position: absolute;*/
+	display: inline;
+	margin-left: 2rem;
+}
+
+#offer-msg-content{
+	position: absolute;
+	margin-top: 3rem;
+	margin-left: calc(4rem + 10px);
+	width: 15rem;
+	height: 4rem;
+	border-radius: 10px;
+	background-color: white;
+
+}
+
+#offer-msg-content p{
+	margin-top: 2px;
+	margin-left: 5px;
+	font-style: italic;
+}
+ 
+#close-offer{
+	position: absolute;
+	margin-top: calc(3rem);
+	margin-left: 4px;
+	width: 4rem;
+	height: 4rem;
+	border-radius: 50%;
+	background-color: #23FF3C91;
+} 
+
+#close-offer p{
+	position: absolute;
+	margin-top: calc(1.5rem - 8px);
+	margin-left: calc(0.5rem );
+	transform: rotateZ(-20deg);
+}
+#close-offer span{
+	margin-left: 10px;
+}
+
+#close-offer:hover{
+	background-color: #E2E969FF;
+	cursor: pointer;
+	animation: _rotate-rider-btn 40s infinite ease-in-out;
+}
+
+#request-container{
+	position: absolute;
+	margin-left: 5rem;
+	margin-top: 5rem;
+}
+
+#passenger-request{
+	position: absolute;
+	width: 20rem;
+	height: 6rem;
+	border-radius: 1rem;
+	background-color: #E2F3AEE7;
+
+}
+
+#request-pointer{
+	position: absolute;
+	margin-left: -4rem;
+	margin-top: calc(3rem - 40px);
+	width: 0;
+	height: 0;
+	border-right: 10rem solid #E2F3AEE7 ;
+	border-bottom: 3rem solid transparent;
+}
+
+#requesters-name{
+	position: absolute;
+	margin-left: calc(6rem);
+	margin-top: calc(-2rem + 10px);
+	width: 8rem;
+	height: 2rem;
+	border-radius: 0.5rem;
+	background-color: #E2DEA8FF;
+}
+
+#requesters-name p{
+	position: absolute;
+	display: inline;
+	margin-top: calc(0.5rem);
+	font-weight: bold;
+	margin-left: 2rem;
+}
+
+#request-reject-btn{
+	position: absolute;
+	margin-top: calc(6rem);
+	/*margin-left: 2rem;*/
+	width: 8rem;
+	height: 2rem;
+	font-weight: bold;
+	border-radius: 1rem;
+	background-color: #23ff3c91;
+}
+
+#request-reject-btn p{
+	position: absolute;
+	display: inline;
+	margin-top: 5px;
+	margin-left: calc(2rem + 10px);
+}
+
+#request-reject-btn:hover{
+	cursor: pointer;
+	background-color:#E2E969FF;
+}
+
+#request-accept-btn{
+	position: absolute;
+	margin-top: calc(6rem);
+	margin-left: 12rem;
+	width: 8rem;
+	height: 2rem;
+	font-weight: bold;
+	border-radius: 1rem;
+	background-color: #23ff3c91;
+}
+#request-accept-btn p{
+	position: absolute;
+	display: inline;
+	margin-top: 5px;
+	margin-left: calc(2rem + 10px);
+}
+#request-accept-btn:hover{
+	cursor: pointer;
+	background-color:#E2E969FF;
+}
+
+#request-msg-content{
+	position: absolute;
+	margin-top: calc(2rem - 5px);
+	margin-left: calc(8rem - 10px);
+	width: 12rem;
+	height: 4rem;
+	border-radius: 10px;
+	background-color: white;
+}
+
+#request-msg-content p{
+	position: absolute;
+	display: inline;
+	margin-top: 0;
+	margin-left: 4px;
+
+	font-style: italic;
+}
+
+#request-date{
+	position: absolute;
+	display: inline;
+	margin-top: -0.8rem;
+	margin-left: calc(16rem - 8px);
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+
+#request-depature{
+	position: absolute;
+	margin-top: 2px;
+	margin-left: 2px;
+	font-weight: bold;
+	font-size: 0.9rem;
+}
+
+#request-depature  label{
+	position: absolute;
+	display: inline;
+
+}
+#request-depature  p{
+	/*position: absolute;*/
+	display: inline;
+	margin-left: 3rem;
+}
+
+#request-arrival{
+	position: absolute;
+	margin-top: 1.5rem;
+	margin-left: 2px;
+	font-weight: bold;
+	font-size: 0.9rem;
+}
+#request-arrival  label{
+	position: absolute;
+	display: inline;
+
+}
+#request-arrival  p{
+	/*position: absolute;*/
+	display: inline;
+	margin-left: 2rem;
+}
+
+#comfirmation-symb{
+	position: absolute;
+	margin-top: calc(3rem - 5px);
+	margin-left: calc(2rem - 5px);
+	width: 3rem;
+	height: 3rem;
+	background-color: transparent;
+	background-image: url(images/reject.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+/*styles for view of offer history starts here*/
+
+#history-poster{
+	position: absolute;
+	margin-top: 0;
+	width: 100%;
+	height: 1.3rem;
+	background-color: #C5B7A4C6;
+	border-top: 2px solid white;
+	/*border-bottom: 1rem solid black;*/
+	border-radius: 5px;
+
+}
+#history-poster p{
+	position: absolute;
+	margin-top: 4px;
+	margin-left: 4rem;
+	font-weight: bold;
+	color: blue;
+}
+
+
+#view-offers{
+	position: absolute;
+	margin-top: 4rem;
+	height: 100%;
+	width: 20rem;
+	/*border-right: 5px solid #0B3148FF;*/
+	background-color: #E2F3AEE7;
+
+}
+
+#offer-details{
+	position: absolute;
+	margin-top: 2rem;
+	width: 100%;
+	height:3rem;
+	border-top:2px solid white;
+	border-bottom:2px solid white;
+	background-color: #CDD766FF;
+}
+
+#offer-symbol{
+	position: absolute;
+	margin-top: 0.5rem;
+	margin-left: 0.5rem;
+	width: 2rem;
+	height: 2rem;
+	background-color: #FFFFC2FF;
+
+
+}
+#offer-symbol label{
+	position: absolute;
+	display: inline;
+	margin-top: 6px;
+	margin-left: 1px;
+	font-weight: bold;
+	color: #FF00AAFF;
+}
+#offer-history-summery{
+	position: absolute;
+	margin-left: 3rem;
+	margin-top: -10px;
+	font-weight: bold;
+
+
+}
+
+#offer-history-date{
+	position: absolute;
+	margin-left: calc(11rem + 9px);
+	margin-top: calc(0.5rem + 9px);
+	font-style: italic;
+
+}
+
+#offer-details:hover{
+	cursor: pointer;
+	background-color: #E2E969FF;
+
+}
+/*
+from this point, its demostration style not to be impmenteed
+javascript should achiev thiss.*/
+#offer-details2{
+	position: absolute;
+	margin-top: 7rem;
+	width: 100%;
+	height:3rem;
+	border-top:2px solid white;
+	border-bottom:2px solid white;
+	background-color: #CDD766FF;
+}
+
+#offer-symbol2{
+	position: absolute;
+	margin-top: 0.5rem;
+	margin-left: 0.5rem;
+	width: 2rem;
+	height: 2rem;
+	background-color: #FFFFC2FF;
+
+
+}
+#offer-symbol2 label{
+	position: absolute;
+	display: inline;
+	margin-top: 6px;
+	margin-left: 1px;
+	font-weight: bold;
+	color: #FF00AAFF;
+}
+#offer-history-summery2{
+	position: absolute;
+	margin-left: 3rem;
+	margin-top: -10px;
+	font-weight: bold;
+
+
+}
+
+#offer-history-date2{
+	position: absolute;
+	margin-left: calc(11rem + 9px);
+	margin-top: calc(0.5rem + 9px);
+	font-style: italic;
+
+}
+
+#offer-details2:hover{
+	cursor: pointer;
+	background-color: #E2E969FF;
+
+}
+
+/*here is the custom style for the clients page*/
+#position-offer-msg-ctm{
+      position: absolute;
+      margin-top: 5rem;
+      margin-left: calc(9rem);
+}
+
+#offer-pointer-custom{
+	position: absolute;
+	margin-left: -8rem;
+	margin-top: calc(3rem - 30px);
+	width: 0;
+	height: 0;
+	border-right: 10rem solid #E2F3AEE7;
+	border-bottom: 3rem solid transparent;
+}
+#position-offer-msg-ctm #offer-msg-content{
+	margin-left: calc(2rem + 10px);
+	
+}
+
+#position-offer-msg-ctm #offer-container{
+	background-color:#E2F3AEE7; 
+}
+#position-offer-msg-ctm #request-reject-btn{
+	margin-top: calc(8rem);
+}#position-offer-msg-ctm #request-accept-btn{
+	margin-top: calc(8rem);
+
+}
+
+#request-container-ctm{
+	margin-left: calc(100% - 25rem);
+	margin-top: 20rem;
+
+
+}
+
+#request-pointer-ctm{
+	position: absolute;
+	margin-left: 15rem;
+	margin-top: calc(4rem - 40px);
+	width: 0;
+	height: 0;
+	border-left: 10rem solid #CDD766FF;
+	border-bottom: 3rem solid transparent;
+}
+
+#client-places{
+	position: absolute;
+	margin-top: 1.5rem;
+}
+
+#request-container-ctm #request-date{
+	margin-left: 12rem;
+}
+
+#request-container-ctm #passenger-request{
+	background-color:#CDD766FF; 
+}
