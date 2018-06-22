@@ -17,7 +17,8 @@ def response(status, msg, code):
 	return make_response(jsonvn) 
 
 def resp_for_get_offers():
-	jsonvn = jsonify({"offers": sendData()})
+	sucess = {"status":"sucess", "code":100}
+	jsonvn = jsonify({"offers": sendData()}, {"status": sucess})
 	return make_response(jsonvn)
 
 
@@ -27,7 +28,8 @@ def rep_for_single_offer(rideid):
 	for content in getdata:
 		# me =  content['offid']
 		if content['offid'] == int(rideid.strip()):
-			jsonvn = jsonify({"offer": content})
+			sucess = {"status":"sucess", "code":100}
+			jsonvn = jsonify({"offer": content}, {"status": sucess})
 
 			return make_response(jsonvn)
 	# return response("nothin", "jfhfh", me + int(rideid.strip())	)	
