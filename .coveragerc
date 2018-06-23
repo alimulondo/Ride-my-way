@@ -21,14 +21,14 @@ omit=
     *multiprocessing/*
     *numbers.py*
     *stringprep.py*
-    *appv\api\offers\helper.py*
-    *appv\api\offers\models.py*
-    *appv\__init__.py*
-    *appv\api\__init__.py*
-    *appv\api\offers\__init__.py*
-    *http\cookiejar.py*
+    *appv/api/offers/helper.py*
+    *appv/api/offers/models.py*
+    *appv/__init__.py*
+    *appv/api/__init__.py*
+    *appv/api/offers/__init__.py*
+    *http/cookiejar.py*
     *mimetypes.py*
-    *appv\config.py*
+    *appv/config.py*
 
 
 
