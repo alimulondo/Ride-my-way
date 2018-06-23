@@ -1,5 +1,7 @@
 Ride-my-way.
 
+[![Build Status](https://travis-ci.org/alimulondo/Ride-my-way.svg?branch=rideapiv1)](https://travis-ci.org/alimulondo/Ride-my-way)
+
 Ride-my-way is about connecting drivers with passengers 
 in realtime in a very effecient manner. 
 It starts by creating an account as either 
