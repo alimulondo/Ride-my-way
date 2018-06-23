@@ -1,0 +1,34 @@
+[report]=
+show_missing = True
+omit=
+    *werkzeug/*
+    *markupsafe/*
+    *jinja2/*
+    *flask_restful/*
+    *flask/*
+    *colorama/*
+    *click/*
+    *encodings/*
+    *uuid.py*
+    *hmac.py*
+    *itsdangerous.py*
+    *asyncio/*
+    *concurrent/*
+    *ctypes/*
+    *decimal.py*
+    *html/*
+    *mimetypes.py *
+    *multiprocessing/*
+    *numbers.py*
+    *stringprep.py*
+    *appv\api\offers\helper.py*
+    *appv\api\offers\models.py*
+    *appv\__init__.py*
+    *appv\api\__init__.py*
+    *appv\api\offers\__init__.py*
+    *http\cookiejar.py*
+    *mimetypes.py*
+    *appv\config.py*
+
+
+
