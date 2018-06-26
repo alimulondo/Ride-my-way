@@ -17,7 +17,7 @@ header{
 }
 
 #cust-header{
-position: relative;
+position: absolute;
 margin-top: 0px;
 margin-left: 0px;
 padding:0px;
@@ -61,9 +61,79 @@ background-color: #24292e;
 
 #cust-logo{
 	position: absolute;
-	margin-top: -5.5rem;
+	margin-top: 0.5rem;
 	margin-left: 6rem;
 	color: white;
 
+}
+
+#cust-login{
+	position: absolute;
+	margin-top: 1rem;
+	margin-left: calc(50% + 8rem);
+	width: 32rem;
+	height: 4rem;
+	background-color: transparent;
+}
+
+.cust-lab{
+	display: block;
+	padding-bottom: 5px;
+	color: white;
+}
+
+
+#email-div{
+	position: absolute;
+	margin-left: 2rem;
+	margin-top: 5px;
+}
+
+#pass-div{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 15rem;
+}
+
+
+#sub-btn-div{
+	position: absolute;
+	margin-left: 27rem;
+	margin-top: calc(1rem + 5px);
+	width: 4rem;
+	height: 2rem;
+	border-radius: 4px;
+	background-color: #2b3137;
+
+}
+
+#sub-btn-div label{
+	display: inline;
+	position: absolute;
+	margin-top: calc(0.5rem);
+	margin-left:8px;
+	color: white;
+}
+
+#sub-btn-div:hover, #sub-btn-div label:hover {
+	cursor: pointer;
+}
+#sub-btn-div:hover{
+	box-shadow: 2px 2px 2px 2px gray;
+
+}
+
+#forgot-div{
+	position: absolute;
+	margin-top: calc(2rem + 10px);
+	margin-left: calc(15rem + 30px);
+	font-size: 13px;
+	color: white;
+
+}
+
+#forgot-div p:hover{
+	text-decoration: underline;
+	cursor: pointer;
 }
 
