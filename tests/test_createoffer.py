@@ -69,7 +69,7 @@ class TestCreateoffer(BaseTestCase):
 			dict_cont = self.data2
 			reponse1 = self.reqJoiningoffer(rideid,dict_cont)
 			content = (reponse1.get_json())
-			self.assertEqual(content["code"], 900)
+			self.assertEqual(content["code"], 201)
 
 	def test_creatoffer(self):
 		with self.client:
