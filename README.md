@@ -1,5 +1,7 @@
+Ride-my-way.
 
-##Ride-my-way.
+[![Build Status](https://travis-ci.org/alimulondo/Ride-my-way.svg?branch=rideapiv1)](https://travis-ci.org/alimulondo/Ride-my-way)
+[![Coverage Status](https://coveralls.io/repos/github/alimulondo/Ride-my-way/badge.svg?branch=master)](https://coveralls.io/github/alimulondo/Ride-my-way?branch=master)
 
 Ride-my-way is about connecting drivers with passengers 
 in realtime in a very effecient manner. 
@@ -11,7 +13,7 @@ for the case of drivrs and
 Passengers can make request to any available ride offers
 and drivers can accept or reject the requests.
     
-##Ride-my-way is important in the following ways:
+Ride-my-way is important in the following ways:
 
 To passengers.
   Passengers are saved from unnecessary 
