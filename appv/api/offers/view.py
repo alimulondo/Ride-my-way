@@ -29,7 +29,7 @@ class SingleRide(Resource):
 		try:
 			int(rideid)
 		except ValueError:
-			return response("Invalide", "Offer does not exist",rideid)
+			return response("Invalide", "Offer does not exist",70)
 
 		else:
 			return rep_for_single_offer(rideid)
