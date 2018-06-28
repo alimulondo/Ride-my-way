@@ -1,6 +1,15 @@
+"""
+Inittialize.
+
+Connection endpoints in this file.
+
+"""
 from flask import Blueprint
-from flask_restful import Resource, Api
-from appv.api.offers.view import GetRides,SingleRide,CreateOffer,JoinReq, CloseReq,Acceptreq
+
+from flask_restful import Api
+
+from appv.api.offers.view import GetRides, SingleRide, CreateOffer, JoinReq, \
+    CloseReq, Acceptreq
 
 offers = Blueprint("offers", __name__)
 

@@ -1,52 +1,73 @@
-"""
-  Author: Ali Mulondo
-  Date: 18/06/2018
-  About: This file contains all my apiv1 data processing..
- 
+"""heading.
+
+informatiom.
+
 """
 
-  ### 1 A list of offers dictionaries
-offers_list = [{ "offid":101, "ownerid":501, "offstatus":1, "offdate":"18/06/2018 10:30Am", 
-"offcontent":"AM leaving at 11:00Am and hope to reach at 12:00Pm", "offfrom":"Kyenjojo", "offto":"mbalala"},
-{ "offid":102, "ownerid":501, "offstatus":0, "offdate":"18/06/2018 10:30Am", 
-"offcontent":"AM leaving at 11:00Am and hope to reach at 12:00Pm", "offfrom":"Kyenjojo", "offto":"mbalala"},
-{ "offid":103, "ownerid":501, "offstatus":1, "offdate":"18/06/2018 10:30Am", 
-"offcontent":"AM last here", "offfrom":"Busitema", "offto":"Kampala"}
+OFFERS = [
+    {
+        "id": 101,
+        "ownerid": 501,
+        "status": 1,
+        "offdate": "18/06/2018 10:30Am",
+        "offcontent": "AM leaving at 11:00Am and hope to reach at 12:00Pm",
+        "offfrom": "Kyenjojo",
+        "offto": "mbalala"},
+    {
+        "id": 102,
+        "ownerid": 501,
+        "status": 1,
+        "offdate": "18/06/2018 10:30Am",
+        "offcontent": "AM leaving at 11:00Am and hope to reach at 12:00Pm",
+        "offfrom": "Kyenjojo",
+        "offto": "mbalala"},
+    {
+        "id": 103,
+        "ownerid": 501,
+        "status": 1,
+        "offdate": "18/06/2018 10:30Am",
+        "offcontent": "AM last here",
+        "offfrom": "Busitema",
+        "offto": "Kampala"}
 ]
 
-  ### 2 A list of request dictionaries
-req_list = [
-  {"reqid":1000, "reqowner":2000, "offid":101,
-    "reqdate":"18/06/2018 10:50Am", "reqstatus":0,
-    "msg":"can i join you at 11:00am from  masaka? " 
-
-  }
-
-  ]
-
-  ### 3 A list of riders/drivers details
-
-  ### 4 A list of passengers details
-
-def  sendData():
-	 return offers_list
-
-def addData(data):
- 	offers_list.append(data)
- 	return "ok"
-
-# request sub-helper functions
-
-def reqdataSend():
-	return req_list
-def reqdataAdd(data):
- 	req_list.append(data)
- 	return "ok"
-
-def retData():
-	return offers_list
-
-def retreqData():
-	return req_list	
+REQ_LIST = [{
+    "reqid": 1000,
+    "reqowner": 2000,
+    "id": 101,
+    "reqdate": "18/06/2018 10:50Am",
+    "reqstatus": 0,
+    "msg": "can i join you at 11:00am from  masaka? "}
+]
 
 
+def send_data():
+    """Offer data is sent from here."""
+    return OFFERS
+
+
+def add_data(data):
+    """Offer data is stored from here."""
+    OFFERS.append(data)
+    return "ok"
+
+
+# def reqdataSend():
+#     """Offer data is sent from here."""
+#     return REQ_LIST
+
+
+def add_request(data):
+    """Offer data is sent from here."""
+    REQ_LIST.append(data)
+    return "ok"
+
+
+def offer_data():
+    """Offer data is sent from here."""
+    return OFFERS
+
+
+def request_data():
+    """User requests are sent from here."""
+    return REQ_LIST
