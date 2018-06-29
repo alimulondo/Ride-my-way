@@ -4,6 +4,7 @@ select{
 	border-radius: 5px;
 	font-size: 1.5rem;
 	height: 1rem;
+
 }
 
 #nav-styles{ 
@@ -469,7 +470,7 @@ ul a li{
 #custom-body{
 	background-image: none;
 	box-sizing: border-box;
-	background-color: #EBFFD1FF;
+    background-color: #24292e;
 }
 
 
@@ -479,7 +480,7 @@ ul a li{
 	width: calc(100% - 1rem);
 	margin-left: 0%;
 	margin-top: 0%;
-	background-color: #E2DEA8FF;
+	background-color: #24292e;
 
 }
 
@@ -509,7 +510,7 @@ ul a li{
 	width: 8rem;
 	height: 2rem;
 	border-radius: 0.5rem;
-	background-color: #238ACBFF;
+	background-color: #fff;
 
 }
 #rider-status p{
@@ -545,7 +546,7 @@ ul a li{
 	margin-left: 0;
 	width: calc(100% - 1rem);
 	height: 10rem;
-	background-color: #C5B7A4C6;
+	background-color: #24292e;
 }
 
 #rider-message-view{
@@ -555,7 +556,7 @@ ul a li{
 	margin-top: 4rem;
 	width: calc(100% - 21rem);
 	height: 33rem;
-	background-color: #efffefdb;
+	background-color: #fff;
 }
 
 /*working on the text-area div*/
@@ -590,8 +591,9 @@ ul a li{
 	margin-left: 3rem;
 	width: 20rem;
 	height: 6rem;
-	background-color: #FEFEA38C;
+	color: #fff;
 	border-radius: 10px;
+	background-color: #2b3137;
 
 
 }
@@ -602,7 +604,8 @@ ul a li{
 	margin-left: calc(49rem);
 	width: 20rem;
 	height: 6rem;
-	background-color: #FEFEA38C;
+	color: #fff;
+	background-color: #2b3137;
 	border-radius: 10px;
 
 
@@ -634,8 +637,9 @@ ul a li{
 	width: 6rem;
 	height: 6rem;
 	border-radius: 50%;
-	background-color: #23FF3C91;
-	transform: rotateZ(30deg);
+	background-color: #E2F3AEE7;
+	/*background-color: #23FF3C91;*/
+	/*transform: rotateZ(30deg);*/
 }
 
 #center-submit{
@@ -655,37 +659,9 @@ ul a li{
 #rider-content-sub:hover{
 	background-color: #E2E969FF;
 	cursor: pointer;
-	animation: _rotate-rider-btn 40s infinite ease-in-out; 
+	/*animation: _rotate-rider-btn 40s infinite ease-in-out; */
 }
 
-@keyframes _rotate-rider-btn{
- from{ 	transform: rotateZ(50deg);
- }
- 25%{	
- 	transform: rotateZ(90deg);
-   }
- 25%{
- 	  	transform: rotateZ(180deg);
-
- }
- 25%{
- 	  	transform: rotateZ(230deg);
-
- }
- 25%{
- 	  	transform: rotateZ(280deg);
-
- }
- 25%{
- 	  	transform: rotateZ(320deg);
-
- }
- to{
- 	  	transform: rotateZ(30deg);
-
- }
-
-}
 
 /*code for offer styling starts here..*/
 #offer-container{
@@ -778,7 +754,8 @@ ul a li{
 	width: 4rem;
 	height: 4rem;
 	border-radius: 50%;
-	background-color: #23FF3C91;
+	background-color: #E2F3AEE7;
+	/*background-color: #23FF3C91;*/
 } 
 
 #close-offer p{
@@ -794,7 +771,6 @@ ul a li{
 #close-offer:hover{
 	background-color: #E2E969FF;
 	cursor: pointer;
-	animation: _rotate-rider-btn 40s infinite ease-in-out;
 }
 
 #request-container{
@@ -829,8 +805,7 @@ ul a li{
 	width: 8rem;
 	height: 2rem;
 	border-radius: 0.5rem;
-	background-color: #E2DEA8FF;
-}
+    background-color: #E2F3AEE7;}
 
 #requesters-name p{
 	position: absolute;
@@ -848,8 +823,7 @@ ul a li{
 	height: 2rem;
 	font-weight: bold;
 	border-radius: 1rem;
-	background-color: #23ff3c91;
-}
+    background-color: #E2F3AEE7;}
 
 #request-reject-btn p{
 	position: absolute;
@@ -871,8 +845,7 @@ ul a li{
 	height: 2rem;
 	font-weight: bold;
 	border-radius: 1rem;
-	background-color: #23ff3c91;
-}
+    background-color: #E2F3AEE7;}
 #request-accept-btn p{
 	position: absolute;
 	display: inline;
@@ -970,7 +943,7 @@ ul a li{
 	margin-top: 0;
 	width: 100%;
 	height: 1.3rem;
-	background-color: #C5B7A4C6;
+    background-color: #2b3137;
 	border-top: 2px solid white;
 	/*border-bottom: 1rem solid black;*/
 	border-radius: 5px;
@@ -981,7 +954,7 @@ ul a li{
 	margin-top: 4px;
 	margin-left: 4rem;
 	font-weight: bold;
-	color: blue;
+	color: #fff;
 }
 
 
@@ -990,8 +963,7 @@ ul a li{
 	margin-top: 4rem;
 	height: 100%;
 	width: 20rem;
-	/*border-right: 5px solid #0B3148FF;*/
-	background-color: #E2F3AEE7;
+	background-color: #24292e;
 
 }
 
@@ -1000,9 +972,10 @@ ul a li{
 	margin-top: 2rem;
 	width: 100%;
 	height:3rem;
+	color: #fff;
 	border-top:2px solid white;
 	border-bottom:2px solid white;
-	background-color: #CDD766FF;
+	background-color: #2b3137;
 }
 
 #offer-symbol{
@@ -1011,7 +984,7 @@ ul a li{
 	margin-left: 0.5rem;
 	width: 2rem;
 	height: 2rem;
-	background-color: #FFFFC2FF;
+	background-color: #fff;
 
 
 }
@@ -1021,7 +994,7 @@ ul a li{
 	margin-top: 6px;
 	margin-left: 1px;
 	font-weight: bold;
-	color: #FF00AAFF;
+	color: #000;
 }
 #offer-history-summery{
 	position: absolute;
@@ -1053,9 +1026,10 @@ javascript should achiev thiss.*/
 	margin-top: 7rem;
 	width: 100%;
 	height:3rem;
+	color: #fff;
 	border-top:2px solid white;
 	border-bottom:2px solid white;
-	background-color: #CDD766FF;
+	background-color: #2b3137;
 }
 
 #offer-symbol2{
@@ -1064,7 +1038,7 @@ javascript should achiev thiss.*/
 	margin-left: 0.5rem;
 	width: 2rem;
 	height: 2rem;
-	background-color: #FFFFC2FF;
+	background-color: #fff;
 
 
 }
@@ -1074,7 +1048,7 @@ javascript should achiev thiss.*/
 	margin-top: 6px;
 	margin-left: 1px;
 	font-weight: bold;
-	color: #FF00AAFF;
+	color: #000;
 }
 #offer-history-summery2{
 	position: absolute;
